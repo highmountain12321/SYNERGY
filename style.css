@@ -1,0 +1,504 @@
+
+body{
+   
+  
+    margin: 0px;
+    padding: 0px;
+
+}
+.animated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.9s;
+}
+nav {
+    width: 100%;
+	height: 75px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    list-style: none;
+	align-items: center;
+}
+
+nav ul li {
+    padding: 4px;
+}
+.log{
+   width: 136px;
+   height: 40px;
+   margin-top: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.navback{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    display: block;
+    z-index: 1;
+	height: 75px;
+    top: 0px;
+}
+nav ul li a:hover{
+   
+  text-decoration: none;
+  color:#0002ffa3;
+  border-bottom:0px;  
+}
+
+@media(max-width:1023px){
+	.navback{
+		
+	 text-align: center;
+	     height: 127px;
+	}
+	nav ul li{
+	padding: 6px;
+    margin-right: 7px;
+    width: 76px;
+    height: 51px;
+	background-color:transparent;
+	}
+	nav ul li a{
+	position: relative;
+    top: 9px;
+	}
+	ul{
+	    margin-right: 97px;
+	}
+}
+
+.sliderone p{
+  
+    line-height: 30px;
+    margin-top: 30px;
+}
+.boot{
+    background: transparent;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #fff;
+}
+.bttno {
+    margin-top: 46px;
+}
+.carousel-indicators {
+    bottom: 80px;
+}
+.carousel {
+    position: relative;
+    margin-top: 75px;
+}
+.sliderone{
+    text-shadow: 0px 0px 5px #000;
+}
+.forbackground h3{
+    margin-top: 13px;
+   
+    text-align: center;
+}
+.forbackground p{
+    text-align: center;
+   font-size: 18px;
+}
+.forbackground {
+    background: black;
+    color: white;
+    padding: 35px 17px 35px 24px;
+    margin-top: 12px;
+  
+}
+
+.bannergrid {
+    position: relative;
+    
+    top: -84px;
+    
+}
+.forbackgroundone h3{
+    margin-top: 13px;
+   
+    text-align: center;
+}
+.forbackgroundone p{
+    text-align: center;
+   font-size: 18px;
+}
+.forbackgroundone {
+    background: #e0ad21;
+    color: white;
+    padding: 35px 17px 35px 24px;
+    margin-top: 12px;
+}
+.forbackgroundtwo h3{
+    margin-top: 13px;
+   
+    text-align: center;
+}
+.forbackgroundtwo p{
+    text-align: center;
+   font-size: 18px;
+}
+.forbackgroundtwo {
+    background: #20a7bd;
+    color: white;
+    padding: 35px 17px 35px 24px;
+    margin-top: 12px;
+}
+.fortest{
+    
+     
+        text-align: center;
+    }
+ .forbottom {
+        margin-top: 37px;
+    }
+#icon {
+        background-color: #0e55cb;
+        width: 70px;
+        height: 69px;
+        text-align: center;
+        border-redius: 50%;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 24px;
+        float: left;
+        color: white;
+        margin-right: 20px;
+        margin-bottom: 74px;
+}
+.forbottom h3{
+    font-size: 15px;
+   
+
+}
+.forbottom p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.fortest {
+    margin-bottom: 57px;
+    margin-top: -57px;
+}
+#marr p{
+    line-height: 28px;
+
+}
+.taking {
+    width: 450px;
+}
+.forwelcom{
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+}
+.forwelcom hr {
+    border-top: 2px solid #000;
+    width: 103px;
+}
+.forwelcom {
+    background-color: #0002ffa3;
+    padding: 20px 0px 136px 0px;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 86%, 71% 100%, 29% 100%, 0 85%, 0 0);
+    clip-path: polygon(52% 0, 100% 0, 100% 86%, 71% 100%, 29% 100%, 0 85%, 0 0);
+}
+#iconss {
+    background-color: #0e55cb;
+    width: 70px;
+    height: 69px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 24px;
+    color: white;   
+}
+.forposi a {
+    font-size: 16px;
+}
+.forposi{
+    text-align: center;
+    background: red;
+    /* padding: 10px; */
+    padding: 33px 0px 33px 0px;
+}
+
+.forposi p{
+    line-height: 26px;
+}
+.forposi {
+    text-align: center;
+    background:white;
+    box-shadow: 0px 5px 17px 0px #0000005e;
+    margin-top: 12px;
+    transition: all ease-in-out  2s ;
+	display:flex;
+	height: 313px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+  
+}
+.forposi:hover {
+    text-align: center;
+    background:#e0ad21;
+    box-shadow: 0px 5px 17px 0px #0000005e;
+    padding: 33px 0px 33px 0px;
+    color: white;
+   
+   
+  
+}
+.forwelcombackground {
+    position: relative;
+    top: -151px;
+    padding: 15px;
+}
+
+
+.forproductsexplan{
+    text-align: center;
+    margin-top: 112px;
+    margin-top: 61px;
+    color: white;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.com{
+    width: 100%;
+    margin-top: 80px;
+  
+}
+.forproducts{
+    background-image: url('img/bluebck.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 61px 0px;
+    margin-top: 25px;
+}
+.pumps{
+    width: 100%;
+    margin-top: 77px;
+    height: 223px;
+}
+.wifion{
+    width: 100%;
+    margin-top: 80px;
+    height: 208px;
+   
+}
+.box{
+    width: 100%;
+    margin-top: 80px;
+    height: 205px;
+  
+}
+.prin{
+    width: 100%;
+    margin-top: 80px;
+  
+}
+.forview{
+    text-align: center;
+    margin-top: 47px;
+   
+}
+.forview a{
+    text-decoration: none;
+    color: white;
+}
+.forview a:hover{
+   color: #7aa2e3;
+   
+}
+.forservises{
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 36px;
+}
+#iconforservices{
+    font-size: 35px;
+    color: #0e55cb;
+    text-align: center;
+    margin-top: 56px;
+}
+.forservicediscrip{
+    text-align: center;
+}
+.forservicediscrip p{
+    line-height: 28px;
+}
+.Aboutus hr{
+    border-top: 2px solid #000;
+    width: 103px;
+}
+.Aboutus{
+    text-align: center;
+    
+    margin-top: 105px;
+}
+#forabout{
+    margin-top: 83px;
+}
+#forabout p{
+    line-height: 28px;
+    margin-top: 16px;
+}
+.spannedspel{
+    margin-top: 41px;
+}
+#forabouticon{
+    float: left;
+    margin-right: 67px;
+    font-size: 18px;
+    color: #0e55cb;
+}
+.groups{
+    margin-top: 83px;
+    margin-left: 39px;
+    width: 100%;
+}
+#Name{
+    width: 86%;
+}
+#Email{
+    width: 86%;
+}
+#Number{
+    width: 86%;
+}
+#massage{
+    width: 86%;
+    padding: 14px;
+}
+
+.mappsofins{   
+    height: 588px;
+    margin-left: 12px;
+    width: 100%;
+}
+.form-group{
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+#forform {
+    border:2px solid #00000073;  
+    margin-top: 76px;
+    padding: 51px;
+}
+
+.formap {
+    margin-top: 76px;
+}
+#footericon{
+    background-color: #4f5c6e;
+    width: 50px;
+    height: 47px;
+    text-align: center;
+    border-redius: 50%;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 24px;
+    float: left;
+    color: white;
+    margin-right: 24px;
+    margin-bottom: 22px;
+    margin-top: 6px;
+}
+#footericonone{
+    background-color: #4f5c6e;
+    width: 50px;
+    height: 47px;
+    text-align: center;
+    border-redius: 50%;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 24px;
+    float: left;
+    color: white;
+    margin-right: 24px;
+    margin-bottom: 22px;
+    margin-top: 6px;
+
+}
+#floatpone p{
+    line-height: 28px;
+    margin-top: 69px;
+    font-size: 15px;
+}
+#floatpone p a{
+    color: white;
+}
+#foot p{
+    line-height: 28px;   
+}
+#floatp p{
+    line-height: 28px;
+    margin-top: 35px;
+    font-size: 15px;
+
+}
+#foot{
+    margin-top: 100px;
+}
+
+.footerbackground{
+   background-color: #141c27;
+   padding-bottom: 85px;
+}
+#foot h2{
+    color:white;
+    margin-bottom: 20px;
+}
+#foot p{
+    color:#999999;
+}
+#floatp p{
+    color: white;
+}
+.forfootermarleft {
+    margin-top: 40px;
+}
+#footone{
+    margin-left: 12px;
+    margin-top: 100px;
+    
+}
+#footone h2{
+    color: white;
+}
+div#list-style {
+    display: flex;
+	width:100%;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    height: 250px;
+    font-size: 16px;
+}
+#list-style li{
+	transition:all 0.5s ease-in-out;
+}
+#list-style li:hover{
+	margin-left:10px;
+}
+#list-style li a{
+    text-decoration: none;
+    color: #999999;
+}
+#list-style li a:hover{
+    color: white;
+}
+#list-style li span{
+    color:white;
+	padding-right: 8px;
+}
