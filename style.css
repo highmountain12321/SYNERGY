@@ -284,6 +284,7 @@ nav ul li a:hover{
     background-size: cover;
     padding: 0px 0px 61px 0px;
     margin-top: 25px;
+	background-attachment:fixed;
 }
 .pumps{
     width: 100%;
